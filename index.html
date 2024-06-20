@@ -1,9 +1,27 @@
 <!doctype html>
-<html lang="zh_CN">
+<meta charset="UTF-8">
+<html>
 	<head>
-		<title>Puzzle - Level 0</title>
+        <style type="text/css">
+            @import url("main.css");
+        </style>
+        <script type="text/javascript" src="tab.js"></script>
+		<title>Puzzles</title>
 	</head>
 	<body>
-		<a href="./1.html"><button type="button">next level</button></a>
+		<div id="tab">
+            <div class="Menubox">
+                <li id="tab_1" class="hover" onclick="setTab(1,4)">tb1</li>
+                <li id="tab_2" onclick="setTab(2,4)">tb2</li>
+                <li id="tab_3" onclick="setTab(3,4)">tb3</li>
+                <li id="tab_4" onclick="setTab(4,4)">tb4</li>
+            </div>
+            <div class="Contentbox">
+                <div id="con_1" class="hover">114514</div>
+                <div id="con_2" class="hide">1919810</div>
+                <div id="con_3" class="hide">1145141919810</div>
+                <div id="con_4" class="hide">2034324</div>
+            </div>
+        </div>
 	</body>
 </html>
